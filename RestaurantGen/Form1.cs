@@ -12,9 +12,13 @@ namespace RestaurantGen
 {
     public partial class Form1 : Form
     {
-        string[] Gg = new string[] { "McDonalds", "Five Guys", "Qdoba", "Captain Ds", "Gold Star", "Piada", "Arbys", "Currito", "Subway", "Potbelly Sandwich", "Penn Station" };
-        string[] Pz = new string[] { "LaRosas", "Donatos", "Deweys", "Dominos", "Pizza Hut" };
-        string[] Dn = new string[] { "PF Changs", "Rusty Bucket", "Buffalo Wild Wings", "Bonefish Grill", "J Alexanders", "Bravo", "Seasons 52", "Boston Market" };
+        string[] Gg = new string[] { "McDonalds", "Five Guys", "Qdoba", "Captain Ds", "Gold Star Chili", "Piada", "Arbys", "Currito", "Subway", 
+            "Potbelly Sandwich", "Penn Station", "Taco Casa", "Skyline Chili", "Chick-fil-A", "Rasing Canes", "Steak n Shake", "Jersey Mikes",
+            "Chipotle", "Wendys", "Fusian", "Taco Bell", "Burger King", "Frischs", "White Castle", "Long John Silvers", "Jack in the Box"};
+        string[] Pz = new string[] { "LaRosas", "Donatos", "Deweys", "Dominos", "Pizza Hut", "Goodfellas" };
+        string[] Dn = new string[] { "PF Changs", "Rusty Bucket", "Buffalo Wild Wings", "Bonefish Grill", "J Alexanders", "Bravo",
+            "Seasons 52", "Boston Market", "Panera Bread", "Cheesecake Factory", "Red Robin", "IHop", "Texas Roadhouse", "Bob Evans",
+            "Waffle House", "BJs", "Frenchie Fresh" };
         int clicks = 0;
 
         bool GgOnly = false;
