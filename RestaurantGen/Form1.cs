@@ -19,8 +19,8 @@ namespace RestaurantGen
         string[] Dn = new string[] { "PF Changs", "Rusty Bucket", "Buffalo Wild Wings", "Bonefish Grill", "J Alexanders", "Bravo",
             "Seasons 52", "Boston Market", "Panera Bread", "Cheesecake Factory", "Red Robin", "IHop", "Texas Roadhouse", "Bob Evans",
             "Waffle House", "BJs", "Frenchie Fresh" };
-        int clicks = 0;
 
+        int clicks = 0;
         bool GgOnly = false;
         bool PzOnly = false;
         bool DnOnly = false;
@@ -97,13 +97,11 @@ namespace RestaurantGen
                 default:
                     c = null;
                     return c;
-
             }
         }
 
         private int GetName1(int x)
         {
-
             switch (x)
             {
                 case 0:
@@ -117,8 +115,7 @@ namespace RestaurantGen
                     return x;
                 default:
                     x = 0;
-                    return x;
-                    
+                    return x;            
             }
         }
 
