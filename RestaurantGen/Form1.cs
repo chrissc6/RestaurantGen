@@ -122,30 +122,6 @@ namespace RestaurantGen
             }
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if(GgOnly == true)
-            {
-                GgOnly = false;
-            }
-            else
-            {
-                GgOnly = true;
-            }
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            if (PzOnly == true)
-            {
-                PzOnly = false;
-            }
-            else
-            {
-                PzOnly = true;
-            }
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             GgOnly = false;
