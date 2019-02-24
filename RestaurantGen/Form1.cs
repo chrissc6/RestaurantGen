@@ -15,6 +15,7 @@ namespace RestaurantGen
         string[] Gg = new string[] { "McDonalds", "Five Guys", "Qdoba", "Captain Ds", "Gold Star", "Piada", "Arbys", "Currito", "Subway", "Potbelly Sandwich", "Penn Station" };
         string[] Pz = new string[] { "LaRosas", "Donatos", "Deweys", "Dominos", "Pizza Hut" };
         string[] Dn = new string[] { "PF Changs", "Rusty Bucket", "Buffalo Wild Wings", "Bonefish Grill", "J Alexanders", "Bravo", "Seasons 52", "Boston Market" };
+        int clicks = 0;
 
         bool GgOnly = false;
         bool PzOnly = false;
@@ -27,6 +28,8 @@ namespace RestaurantGen
 
         private void button1_Click(object sender, EventArgs e)
         {
+            clicks++;
+            label5CLICKS.Text = clicks.ToString();
 
             Random rng = new Random();
             int g;
